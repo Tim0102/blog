@@ -18,16 +18,16 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: &&&
-  password: &&&&&&&&&
+  username: Tim
+  password: b2995349534
   host: localhost
 
 development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: &&&&&&&&&
-  password: &&&&&&&&&
+  username: Tim
+  password: b2995349534
   host: localhost
   database: blog_development
 
@@ -87,5 +87,5 @@ test:
 production:
   <<: *default
   database: blog_production
-  username: &&&&&&&&&
-  password: &&&&&&&&&
+  username: Tim
+  password: b2995349534
