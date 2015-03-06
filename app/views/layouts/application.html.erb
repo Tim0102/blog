@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>My App Test</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-  <div class="container">  
-   <%= yield %>
-  </div>
+ <body>
+  <div class="container"> 
+    <div class="row">
+      <div class="col-xl-9"> <%= yield %></div>
+         </div>
+   </div>
+   <iframe style="overflow:hidden" scrolling="no" width='2180px' height='3500px' src="https://docs.google.com/spreadsheets/d/1ablOaDZey83W5awtFWHmY0esENnt3yoQUM-VZQxCoB8/pubhtml#"  ></iframe>
 
-</body>
+  
+
+  
+
+ 
+    
+
+  
+
+
+ </body>
 </html>
